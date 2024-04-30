@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
   - name: get from arguements
-  ansible.builtin.debug:
-    msg: "hello {{PERSON}}, good{{WISHES}}"
+    ansible.builtin.debug:
+      msg: "hello {{PERSON}}, good{{WISHES}}"
